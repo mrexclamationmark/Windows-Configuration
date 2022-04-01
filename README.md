@@ -2,6 +2,8 @@
 
 Low latency desktop configuration for windows 10 for high performance uses.
 
+Note that some security programs are removed (windows defender), use this configuration for high performance uses only.
+
 **Testing:**
 
 These files were tested under an stock Windows 10 21H2.
