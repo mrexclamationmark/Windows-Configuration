@@ -6,4 +6,4 @@ Note that some security programs are removed (windows defender), use this config
 
 **Testing:**
 
-These files were tested under an stock Windows 10 21H2.
+These files were tested under stock Windows 10 21H2.
