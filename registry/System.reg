@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+# System Tweaks
+
+# Use UTC clock instead of local
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\TimeZoneInformation]
+"RealTimeIsUniversal"=dword:00000001
+
+# Disable NCSI active probing
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\NlaSvc\Parameters\Internet]
+"EnableActiveProbing"=dword:00000000
