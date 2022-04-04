@@ -8,7 +8,7 @@ rm -rf "Windows/System32/drivers/mssecflt.sys"
 rm -rf "Windows/System32/drivers/SgrmAgent.sys"
 rm -rf "Windows/System32/drivers/WdNisDrv.sys"
 
-# Console driver, needed for bat scripts
+# Console driver, needed for cmd.exe, many software rely on it.
 rm -rf "Windows/System32/drivers/condrv.sys"
 
 rm -rf "Windows/System32/drivers/UMDF"
