@@ -1,8 +1,6 @@
 Windows Registry Editor Version 5.00
 
-# Needed Services
-
-# Used for Metro UI (Menu), can be disabled, if you want to use "run" to run executables.
+# Used for Metro UI (Menu), can be disabled, if you don't mind having a right click menu.
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SystemEventsBroker]
 "Start"=dword:00000004
 
