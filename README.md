@@ -1,6 +1,6 @@
 **Please read the files before using them and understand what they do.**
 
-Here is a bunch of windows customization scripts for performance tuning, please read the files, it is very important.
+Here is a bunch of windows customization scripts for windows performance tuning, please read the files, it is very important.
 
 Note that some security programs are removed (windows defender, windows firewall), usually the best antivirus is common sense "insert year", but you can use third party anti virus and/or third party firewall or an external firewall.
 
