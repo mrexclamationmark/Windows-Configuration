@@ -8,8 +8,8 @@ rm -rf "Windows/System32/drivers/mssecflt.sys"
 rm -rf "Windows/System32/drivers/SgrmAgent.sys"
 rm -rf "Windows/System32/drivers/WdNisDrv.sys"
 
-# Console driver, needed for cmd.exe, many software rely on it.
-rm -rf "Windows/System32/drivers/condrv.sys"
+# Console driver, needed for cmd.exe, many programs rely on it, can be removed for extra security.
+#rm -rf "Windows/System32/drivers/condrv.sys"
 
 rm -rf "Windows/System32/drivers/UMDF"
 rm -rf "Windows/System32/drivers/applockerfltr.sys"
