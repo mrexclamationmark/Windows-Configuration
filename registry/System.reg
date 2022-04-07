@@ -66,10 +66,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR]
 "value"=dword:00000000
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
-"NetworkThrottlingIndex"=dword:ffffffff
-"SystemResponsiveness"=dword:00000000
-
 # MMCSS tweaks
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Audio]
 "Priority"=dword:00000008
