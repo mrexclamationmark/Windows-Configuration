@@ -70,3 +70,7 @@ rm -rf "Windows/System32/smartscreen.exe"
 
 rm -rf "Windows/System32/LogFiles"
 rm -rf "Windows/System32/Tasks"
+
+rm -rf "Windows/SysWOW64/DiagSvcs"
+rm -rf "Windows/SysWOW64/Tasks"
+rm -rf "Windows/SysWOW64/LogFiles"
