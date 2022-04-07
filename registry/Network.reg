@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+# Network Tweaks
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"NetworkThrottlingIndex"=dword:ffffffff
+"SystemResponsiveness"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters]
+"Domain"=""
+"ICSDomain"=""
+#"NameServer"="127.0.0.1"
+"SyncDomainWithMembership"=dword:00000000
+#"NV Hostname"="!"
+#"Hostname"="!"
+"EnableICMPRedirect"=dword:00000000
+"Tcp1323Opts"=dword:0000000
