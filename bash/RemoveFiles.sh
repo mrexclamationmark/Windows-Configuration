@@ -74,3 +74,6 @@ rm -rf "Windows/System32/Tasks"
 rm -rf "Windows/SysWOW64/DiagSvcs"
 rm -rf "Windows/SysWOW64/Tasks"
 rm -rf "Windows/SysWOW64/LogFiles"
+
+mkdir BACKUP && mv ProgramData/Microsoft/Windows/AppRepository/StateRepository-Machine.srd BACKUP && rm -rf "ProgramData/Microsoft" && mkdir -p ProgramData/Microsoft/Windows/AppRepository && mv BACKUP/StateRepository-Machine.srd ProgramData/Microsoft/Windows/AppRepository/ && rm -rf "BACKUP"
+
