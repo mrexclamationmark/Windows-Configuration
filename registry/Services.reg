@@ -14,11 +14,11 @@ Windows Registry Editor Version 5.00
 
 # Used for DHCP, can be disabled if you use static ip addresses
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dhcp]
-"Start"=dword:00000004
+"Start"=dword:00000002
 
 # Used for DNS
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache]
-"Start"=dword:00000004
+"Start"=dword:00000002
 
 # Services Tweaks (Non-Microsoft)
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\nvsvc]
