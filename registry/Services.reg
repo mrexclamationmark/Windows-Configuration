@@ -1,6 +1,8 @@
 Windows Registry Editor Version 5.00
 
-# Used for Metro UI (Menu), can be disabled, if you don't mind having a right click menu.
+# Needed Services
+
+# Used for Metro UI (Menu), can be disabled, if you want to use "run" to run executables.
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SystemEventsBroker]
 "Start"=dword:00000004
 
@@ -12,9 +14,13 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\mpsdrv]
 "Start"=dword:00000004
 
-# Needed for DNS
+# Used for DHCP, can be disabled if you use static ip addresses
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dhcp]
+"Start"=dword:00000004
+
+# Used for DNS
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache]
-"Start"=dword:00000002
+"Start"=dword:00000004
 
 # Services Tweaks (Non-Microsoft)
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\nvsvc]
@@ -32,7 +38,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\NvStreamSvc]
 "Start"=dword:00000004
 
-# Services Tweaks (00000002 = automatic, 00000003 = manual, 00000004 = disabled)
+# Services Tweaks (00000001 = boot, 00000002 = automatic, 00000003 = manual, 00000004 = disabled)
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\AppvStrm]
 "Start"=dword:00000004
@@ -86,6 +92,9 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\CredentialEnrollmentManagerUserSvc]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\CryptSvc]
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\DeviceAssociationBrokerSvc]
@@ -166,28 +175,28 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\LicenseManager]
 "Start"=dword:00000004
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\icssvc]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\icssvc]
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\IKEEXT]
 "Start"=dword:00000004
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IpFilterDriver]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\IpFilterDriver]
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\iphlpsvc]
 "Start"=dword:00000004
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IPMIDRV]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\IPMIDRV]
 "Start"=dword:00000004
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IPNAT]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\IPNAT]
 "Start"=dword:00000004
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IPT]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\IPT]
 "Start"=dword:00000004
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IpxlatCfgSvc]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\IpxlatCfgSvc]
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\LanmanServer]
@@ -205,10 +214,10 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\MapsBroker]
 "Start"=dword:00000004
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MessagingService]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\MessagingService]
 "Start"=dword:00000004
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MicrosoftEdgeElevationService]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\MicrosoftEdgeElevationService]
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\MsSecFlt]
@@ -313,6 +322,12 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\StorSvc]
 "Start"=dword:00000004
 
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\swprv]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SysMain]
+"Start"=dword:00000004
+
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\TabletInputService]
 "Start"=dword:00000004
 
@@ -356,6 +371,9 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\wcifs]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Wcmsvc]
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WdFilter]
