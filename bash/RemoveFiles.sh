@@ -67,7 +67,7 @@ rm -rf "Windows/System32/SecurityHealthAgent.dll"
 rm -rf "Windows/System32/smartscreenps.dll"
 rm -rf "Windows/System32/smartscreen.exe"
 
-# Needed for consent.exe, can be disabled for extra security (admin privileges won't work)
+# Needed for mmc.exe user privileges (but admin privileges work)
 #rm -rf "Windows/System32/cryptsvc.dll"
 
 
