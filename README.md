@@ -1,4 +1,4 @@
-**Please read the files before using them and understand what they do.**
+**Please read the files before using them.**
 
 Here is a bunch of windows customization scripts for windows performance tuning, please read the files, it is very important.
 
