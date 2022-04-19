@@ -12,4 +12,4 @@ These files were tested under stock Windows 10 21H2.
 
 **What doesn't work:**
 
-The metro interface does not work, but the right click on the start menu icon works.
+The metro interface does not work, but the right click on the start menu icon works (after waiting 1-2 minutes, as it seems to hang at start).
