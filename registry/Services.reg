@@ -12,6 +12,10 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\mpsdrv]
 "Start"=dword:00000004
 
+# Needed to install drivers
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\DeviceInstall]
+"Start"=dword:00000004
+
 # Used for DHCP, can be disabled if you use static ip addresses
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dhcp]
 "Start"=dword:00000002
@@ -19,6 +23,10 @@ Windows Registry Editor Version 5.00
 # Used for DNS
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache]
 "Start"=dword:00000002
+
+# Needed to configure network adapter properties
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\NetSetupSvc]
+"Start"=dword:00000003
 
 # Services Tweaks (Non-Microsoft)
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\nvsvc]
@@ -42,6 +50,9 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\AppvVemgr]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\AppMgmt]
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\AppvVfs]
@@ -99,9 +110,6 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\DeviceAssociationService]
-"Start"=dword:00000004
-
-[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\DeviceInstall]
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\DevicePickerUserSvc]
@@ -396,6 +404,9 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinHttpAutoProxySvc]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Winmgmt]
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\wlidsvc]
