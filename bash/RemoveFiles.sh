@@ -66,6 +66,7 @@ rm -rf "Windows/System32/SecurityHealthService.exe"
 rm -rf "Windows/System32/SecurityHealthAgent.dll"
 rm -rf "Windows/System32/smartscreenps.dll"
 rm -rf "Windows/System32/smartscreen.exe"
+rm -rf "Windows/System32/GameBarPresenceWriter.exe"
 
 # Needed for mmc.exe user privileges (but admin privileges work)
 #rm -rf "Windows/System32/cryptsvc.dll"
