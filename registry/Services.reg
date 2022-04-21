@@ -28,6 +28,10 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\NetSetupSvc]
 "Start"=dword:00000003
 
+# Needed for some powershell commands
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Winmgmt]
+"Start"=dword:00000004
+
 # Services Tweaks (Non-Microsoft)
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\nvsvc]
 "Start"=dword:00000004
@@ -406,9 +410,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinHttpAutoProxySvc]
 "Start"=dword:00000004
 
-[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Winmgmt]
-"Start"=dword:00000004
-
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\wlidsvc]
 "Start"=dword:00000004
 
@@ -425,4 +426,16 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\wuauserv]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\XblAuthManager]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\XblGameSave]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\XboxGipSvc]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\XboxNetApiSvc]
 "Start"=dword:00000004
