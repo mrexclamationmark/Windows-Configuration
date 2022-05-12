@@ -8,7 +8,7 @@ It is best to use these scripts after you installed all drivers, software and do
 
 **Testing:**
 
-These files were tested under stock Windows 10 21H2.
+These files were tested under stock Windows 10 21H2 on a BIOS system.
 
 **What doesn't work:**
 
